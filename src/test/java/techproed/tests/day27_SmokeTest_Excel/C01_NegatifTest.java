@@ -10,7 +10,7 @@ import techproed.utilities.ReusableMethods;
 
 public class C01_NegatifTest {
 
-    @Test
+    @Test(groups = "smoke")
     public void test01() {
         //Description:
         //Kullanimda olmayan kullanıcı adi ve şifre ile giriş yapilamamali
